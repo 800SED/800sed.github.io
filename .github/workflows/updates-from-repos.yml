@@ -40,18 +40,7 @@ jobs:
               TARGET_DIR="fsd-projects/circularity"
               README_NAME="circularity.md"
               ;;
-            update-first-website-hs)
-              README_NAME="first-website.md"
-              ;;
-            update-portfolio-hs)
-              README_NAME="portfolio.md"
-              ;;
-            update-runtime)
-              TARGET_DIR="fsd-projects/runtime"
-              README_NAME="runtime.md"
-              ;;
-          esac
-
+            update-first-we
           if [ -n "$TARGET_DIR" ]; then
             # Delete the target directory if it exists
             rm -rf "$TARGET_DIR"
